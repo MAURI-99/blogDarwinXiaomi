@@ -1,0 +1,178 @@
+/* Reset global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #f0f0f0; 
+    color: #0e0e0e; 
+}
+
+/* Header */
+header {
+    background-color: #000; /* Fondo negro para el encabezado */
+    padding: 0px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 300px;
+    height: auto;
+}
+
+header .titulo-header {
+    color: rgb(213, 160, 160);
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Navigation */
+.menu {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: #f4ce99;
+    margin-top: 10px;
+}
+
+.menu-item {
+    margin: 0 20px;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+    background-color: #f8ecbe; /* Fondo blanco para el contenido */
+}
+
+.introduccion, .productos, .novedades, .articulos {
+    margin-bottom: 30px;
+}
+
+/* Títulos */
+.titulo-secundario {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: #080808;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.titulo-tres{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: #080808;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+/* Párrafos */
+.parrafo-introduccion {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #242323;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.parrafo-secundario{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #0f0f0f;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.parrafo-tres{
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #131212;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.parrafo-footer {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+.lista-productos, .lista-enlaces {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-productos li, .lista-enlaces li {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.lista-enlaces li a {
+    color: #0066cc;
+}
+
+.lista-enlaces li a:hover {
+    text-decoration: underline;
+}
+
+/* Imágenes */
+.imagen-principal  {
+    max-width: 40%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+.imagen-secundaria{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Footer */
+.pie-pagina {
+    background-color: #333; /* Fondo gris oscuro para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.texto-footer {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.icono-footer {
+    width: 20px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.icono-footer img {
+    width: 4%;
+}
