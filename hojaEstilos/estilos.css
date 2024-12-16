@@ -159,7 +159,7 @@ main {
     color: white;
     text-align: center;
     padding: 15px 0;
-    margin-top: 30px;
+    margin-top: 40 px;
 }
 
 .texto-footer {
@@ -168,11 +168,39 @@ main {
 }
 
 .icono-footer {
-    width: 20px;
+    width: 10%;
     height: auto;
     margin: 0 10px;
 }
 
 .icono-footer img {
-    width: 4%;
+    width: 2.5%;
+}
+
+.icono-dos-footer {
+    width: 10%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.icono-dos-footer img {
+    width: 2.4%;
+}
+.icono-tres-footer {
+    width: 10%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.icono-tres-footer img {
+    width: 2.4%;
+}
+.icono-cuatro-footer {
+    width: 10%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.icono-cuatro-footer img {
+    width: 2.8%;
 }
