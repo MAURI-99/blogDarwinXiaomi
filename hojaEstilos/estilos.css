@@ -59,6 +59,69 @@ main {
     padding: 30px;
     background-color: #f8ecbe; /* Fondo blanco para el contenido */
 }
+/* Contenedor Principal */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Sección Principal */
+.contenido {
+    flex: 3;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #ff6700;
+    color: white;
+}
+
+/* Barra Lateral */
+.barra-lateral {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.barra-lateral .indice,
+.barra-lateral .autor {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.barra-lateral h3 {
+    color: #ff6700;
+}
+
+.barra-lateral ul {
+    padding: 0;
+    list-style: none;
+}
+
+.barra-lateral ul li {
+    margin-bottom: 8px;
+}
 
 .introduccion, .productos, .novedades, .articulos {
     margin-bottom: 30px;
