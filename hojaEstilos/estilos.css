@@ -25,7 +25,7 @@ header .logo {
 
 header .titulo-header {
     color: rgb(213, 160, 160);
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: 3px;
     display: block;
@@ -103,7 +103,8 @@ th {
 }
 
 .barra-lateral .indice,
-.barra-lateral .autor {
+.barra-lateral .autor,
+.informacion{
     background-color: #f9f9f9;
     padding: 15px;
     border: 1px solid #ddd;
@@ -127,25 +128,42 @@ th {
     margin-bottom: 30px;
 }
 
-/* Títulos */
 .titulo-secundario {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28px;
-    color: #080808;
-    margin-bottom: 15px;
+    font-size: 26px;
+    color: #c2d856;
+    margin-bottom: 25px;
     text-align: center;
 }
 .titulo-tres{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28px;
-    color: #080808;
+    font-size: 24px;
+    color: #6f3ded;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.titulo-cuatro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #33e518;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.titulo-cinco{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #5109fa;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.titulo-seis{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #335556;
     margin-bottom: 15px;
     text-align: left;
 }
 
-
-
-/* Párrafos */
 .parrafo-introduccion {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     font-size: 30px;
@@ -178,8 +196,16 @@ th {
     color: #777;
     margin-bottom: 10px;
 }
+.parrafo-hist {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #131212;
+    margin-bottom: 20px;
+    text-align:left;
+}
 
-/* Listas */
+
 .lista-productos, .lista-enlaces {
     list-style-type: none;
     padding-left: 0;
@@ -189,14 +215,50 @@ th {
     font-size: 20px;
     margin-bottom: 8px;
 }
+.lista-productos, .producto-nombre{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #2e283b;
+    text-decoration: underline;
+
+}
 
 .lista-enlaces li a {
-    color: #0066cc;
+    color: #cc00cc;
 }
 
 .lista-enlaces li a:hover {
     text-decoration: underline;
 }
+
+.lista-gadgets, .gadgets{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #070707;
+    font-family:'Times New Roman', Times, serif;
+}
+.lista-gadgets, .gadgets{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.lista-smartphones, .name-p{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-smartphones, .name-p {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.lista-smartphones, .name-p {
+    color: #262529;
+}
+
+
 
 /* Imágenes */
 .imagen-principal  {
