@@ -68,7 +68,6 @@ main {
     gap: 20px;
 }
 
-/* Sección Principal */
 .contenido {
     flex: 3;
     background-color: #fff;
@@ -76,7 +75,6 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Tablas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -90,11 +88,14 @@ th, td {
 }
 
 th {
-    background-color: #ff6700;
+    background-color: #611dba;
     color: white;
 }
+td {
+    background-color: #a7e884;
+    color: rgb(9, 9, 9);
+}
 
-/* Barra Lateral */
 .barra-lateral {
     flex: 1;
     display: flex;
@@ -104,7 +105,8 @@ th {
 
 .barra-lateral .indice,
 .barra-lateral .autor,
-.informacion{
+.informacion, 
+.Noticias{
     background-color: #f9f9f9;
     padding: 15px;
     border: 1px solid #ddd;
