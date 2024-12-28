@@ -20,43 +20,60 @@
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Contáctanos</h2>
-            <p>¿Tienes alguna pregunta o necesitas más información sobre los productos Xiaomi? Completa el formulario y te responderemos lo antes posible.</p>
-            <form action="#" method="post">
-                <label for="nombre">Nombre Completo:</label><br>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required><br><br>
-    
-                <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
-    
-                <label for="telefono">Número de Teléfono:</label><br>
-                <input type="tel" id="telefono" name="telefono" placeholder="0960153306"><br><br>
-    
-                <label for="asunto">Asunto:</label><br>
-                <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required><br><br>
-    
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
-    
-                <label for="preferencia">Preferencia de Contacto:</label><br>
-                <select id="preferencia" name="preferencia">
-                    <option value="email">Correo Electrónico</option>
-                    <option value="telefono">Teléfono</option>
-                    <option value="whatsapp">WhatsApp</option>
-                </select><br><br>
-    
-                <input type="submit" value="Enviar">
-            </form>
-    </section>
-    <aside>
-        <h3>Información de Contacto</h3>
-        <p><strong>Correo Electrónico:</strong> soporte@xiaomi.com</p>
-        <p><strong>Teléfono:</strong> 0960153306</p>
-        <p><strong>Horario:</strong> Lunes a Viernes, 7:00 - 15:00</p>
-    </aside>
+    <main class="contenedor">
+        <section class="contenido">
+            <section class="introduccion">
+                <h2 class="titulo-secundario">Contáctanos</h2>
+                <p class="parrafo-hist">¿Tienes alguna pregunta o necesitas más información sobre los productos Xiaomi? Completa el formulario y te responderemos lo antes posible.</p>
+                <form action="#" method="post" class="form-contacto">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+        
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="0960153306">
+        
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+        
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        
+                    <label for="preferencia">Preferencia de Contacto:</label>
+                    <select id="preferencia" name="preferencia">
+                        <option value="email">Correo Electrónico</option>
+                        <option value="telefono">Teléfono</option>
+                        <option value="whatsapp">WhatsApp</option>
+                    </select>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <aside>
+                <h3 class="titulo-tres">Información de Contacto</h3>
+                <p class="parrafo-secundario"><strong>Correo Electrónico:</strong> soporte@xiaomi.com</p>
+                <p class="parrafo-secundario"><strong>Teléfono:</strong> 0960153306</p>
+                <p class="parrafo-secundario"><strong>Horario:</strong> Lunes a Viernes, 7:00 - 15:00</p>
+            </aside>
+        </section>
+   <aside class="barra-lateral">
+    <div class="indice">
+        <h3>ÍNDICE</h3>
+        <ul>
+            <li>1. Formulario de contacto</li>
+            <li>2. Información de contacto</li>
+        </ul>
+    </div>
 
+    <div class="autor">
+        <h3>SOBRE EL AUTOR</h3>
+        <p><strong>POR: Darwin Armijos</strong></p>
+        <p>Última edición: 17 de diciembre de 2024</p>
+        <p>Revisado por <a href="#">Equipo editorial, Darwins SA</a></p>
+    </div>
+</aside>
     </main>
 
     <footer class="pie-pagina">
